@@ -1,9 +1,10 @@
 # snake_validation
 js class validation
 
+usage
 
     let value = 'Vitalii'
-    return   new Validation('First Name', value).min(3).pattern(10).validate();
+    return   new Validation('First Name', value).min(3).pattern('alpha').validate();
 
     return object
     {
